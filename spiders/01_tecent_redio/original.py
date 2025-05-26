@@ -7,7 +7,7 @@ from urllib.parse import quote
 import time
 #调用js
 import  execjs
-js_code = execjs.compile(open('decrypt.js',encoding='utf-8').read())
+js_code = execjs.compile(open('decrypt.js', encoding='utf-8').read())
 
 headers = {
     'accept':'*/*',
